@@ -8,7 +8,7 @@ fvletzte = 0
 
 print("Fibonacci Zahlen:")
 print(1,end=" ")
-for i in range(1, n):
+for i in range(0, n):
     f = fletzte + fvletzte
     fvletzte = fletzte
     fletzte = f
