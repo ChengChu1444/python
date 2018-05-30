@@ -13,7 +13,9 @@ vier = 0
 fuenf = 0
 sechs = 0
 
-for i in range(0,100):
+anz = int(input("Geben sie die Anzahl der Wuerefelwuerfe ein "))
+
+for i in range(0,anz):
     rng = randint(1,6)
     if(rng == 1):
         eins += 1
